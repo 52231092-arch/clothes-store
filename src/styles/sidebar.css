@@ -1,0 +1,31 @@
+.nav {
+    width: 220px;
+    background-color: darkblue;
+    min-height: 100%;
+    padding: 30px 20px;
+  }
+  
+  .nav h2 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-bottom: 15px;
+  }
+  
+  .nav a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    color: white;
+  }
+

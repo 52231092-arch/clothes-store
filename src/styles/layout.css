@@ -1,0 +1,21 @@
+.layout{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.lay-body{
+    display: flex;
+    flex: 1;
+}
+@media (max-width: 768px) {
+    .lay-body {
+      flex-direction: column;
+    }
+    
+    .nav {
+      width: 100%;
+      height: auto;
+      min-height: auto;
+    }
+  }
